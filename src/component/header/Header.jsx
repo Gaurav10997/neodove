@@ -1,25 +1,24 @@
-import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
-import NotificationsIcon from '@mui/icons-material/Notifications';
-import MenuIcon from '@mui/icons-material/Menu';
-import BasicSelect from "./BasicSelect"
-import "./index.css"
+import "./index.css";
+import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
+import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
+import RocketLaunchOutlinedIcon from "@mui/icons-material/RocketLaunchOutlined";
+import BasicSelect from "./BasicSelect";
 
-export default function Header(){
-    return(
-        <div className="header">
-        <header>
-            <h3>Test Lead</h3>
-            <div className="icons_menu">
-                <BasicSelect/>
-                <HeadsetMicIcon/>
-                <RocketLaunchIcon/>
-                <NotificationsIcon/>
-                <MenuIcon/>
-            </div>  
-        </header>
+import TemproryDrawer from "./TemproryDrawer";
 
+export default function Header() {
+  return (
+    <div className="header">
+      <header>
+        <h3>Test Lead</h3>
+        <div className="icons_menu">
+          <BasicSelect />
+          <HeadsetMicOutlinedIcon className="icon_items" />
+          <RocketLaunchOutlinedIcon className="icon_items" />
+          <NotificationsNoneOutlinedIcon className="icon_items" />
+          <TemproryDrawer />
         </div>
-
-    )
+      </header>
+    </div>
+  );
 }

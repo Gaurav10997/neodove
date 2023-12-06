@@ -17,6 +17,10 @@ header{
     display:flex;
     justify-content:space-around;
     width:30%;
-
+    align-items:center;
 } 
+
+.icon_items:hover{
+  color:grey;
+}
 
