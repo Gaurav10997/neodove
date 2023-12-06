@@ -1,0 +1,19 @@
+.main__summary{
+    grid-column:6/-1;
+    grid-row-start:2;
+    grid-row-end:7;
+    background-color: white;
+    border-radius:15px;
+    padding:10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pie__chart{
+    height:80%;
+    width:60%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+}

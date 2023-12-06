@@ -1,0 +1,18 @@
+.custom__button{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:white;
+    border-radius:20px;
+    padding:10px;
+    flex:1;
+    cursor:pointer;
+
+}
+
+.custome__button__left{
+    display:flex;
+    gap:1rem;
+    align-items:center;
+    
+}
